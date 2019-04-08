@@ -11,6 +11,6 @@ I will hopefully work on updating this in the future
 
 currently the first line is the input to be processed and the bottom shows the rule which the input is proccessed by (hard coded at the moment, this will hopefully change)
 
-there is a key on the left if the cells above (top left, top, top right) the current cell are what is shown in the key then the cell will change to the shown output, no cell it counted as a light grey/white cell (0). this patern flows down to the 50th row.
+there is a key on the left if the cells above (top left, top, top right) the current cell are what is shown in the key then the cell will change to the shown output, no cell it counted as a light grey/white cell (w). this patern flows down to the 50th row.
 
 **there are no macros in this it based purely on conditional formatting and cell referencing**
