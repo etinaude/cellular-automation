@@ -13,4 +13,6 @@ this is an example of [elementary cellular automation](https://en.wikipedia.org/
 
 there is a key on under the size input. For each cell look at the 3 cells above it then follow the key then that cell will change to that value
 
-**this version has been updated to use macros rather than cell formulae**
+**this version has both a macros edition and a cell formulae edition**
+
+the macro edition uses 1s and 0s BUT the formulae edition uses "B"s and "W"s since excel unprediactably switched 0 to "0" and vis versa same for the ones.
