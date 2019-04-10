@@ -4,6 +4,7 @@
 ## TR refers to top right
 ## reference is a function which uses the input to look up the correct value in a refernce table
 ```python
+#splits into 2 secions one with the TL being W and one with it being B and finds the correct output from there.
 IF(TL="W")
 	IF(TM="W" AND TR="W")
 		reference(000)
@@ -15,7 +16,8 @@ IF(TL="W")
 				reference(011)
 			  Else
 				"Error 0"
-	IF(AND(TM="W",TR="W")
+				# if its not one of the above combos there was an error
+Else IF(AND(TM="W",TR="W")
 		reference(100)
 	Else IF(AND(TM="W",TR="B")
 			reference(101)
@@ -25,4 +27,5 @@ IF(TL="W")
 				reference(111)
 			   Else
 				"Error 1"
+				# if its not one of the above combos there was an error
 '''
