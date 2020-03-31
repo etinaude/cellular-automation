@@ -16,3 +16,8 @@ there is a key on under the size input. For each cell look at the 3 cells above 
 **this version has both a macros edition and a cell formulae edition**
  
 the macro edition uses 1s and 0s BUT the formulae edition uses "B"s and "W"s since excel unpredictably switched 0 to "0" and vise versa same for the ones.
+
+
+# each row
+
+this is a document that comes in xlsx and ods formats it is an extention of the other celular automation, the way each row works, it each row has a different elementary rule assosaited with it, starting at rule 000 and ending at rule 255 it contains just under 80, 000 cells to update so it can take some time. since the first rule is 000 the input row doesn't change the output state.
